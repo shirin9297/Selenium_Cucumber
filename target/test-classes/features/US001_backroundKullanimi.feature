@@ -18,3 +18,4 @@ Feature: US001 Background Kullanimi
     Then Kullanici iphone  aratir
     And Sonuclarin iphone icerdigini test eder
     And sayfayi kapatir
+
