@@ -71,9 +71,9 @@ public class AmazonStepDefinition {
     }
 
     @And("sonuclarin {string} icerdigini test eder")
-    public void sonuclarinIcerdiginiTestEder(String arananKelime) {
+    public void sonuclarinIcerdiginiTestEder(String kelime) {
         String actualAramaSonucStr= amazonPage.aramaSonucWE.getText();
-        Assert.assertTrue(actualAramaSonucStr.contains(arananKelime));
+        Assert.assertTrue(actualAramaSonucStr.contains(kelime));
     }
 
     @Given("kullanici {string} sayfasina gider")

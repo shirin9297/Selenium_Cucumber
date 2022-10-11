@@ -10,8 +10,11 @@ public class BrcPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//a[normalize-space()='Login'")
+    @FindBy(xpath = "//a[normalize-space()='Login']")
     public WebElement login;
-
+    @FindBy(xpath = "//*[@id='formBasicEmail']")
+    public WebElement email;
+    @FindBy(xpath = "//*[@class='btn btn-primary']")
+    public WebElement ikinciLogin;
 
 }
