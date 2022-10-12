@@ -8,27 +8,25 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@all", // iki tag'i ayni anda calistirmak isterseniz "@gp1 or @gp2"
+        tags = "@PracticeAmazon", // iki tag'ı aynı anda çalıştırmak isterseniz "@gp1 or @gp2"
         dryRun = true
 )
-
-
 public class Runner {
     /*
-    Runner Class'i TestNG'deki XML mantigi ile calisir. Calistirmak istedigimiz senaryolara
-    tag belirtiriz ve belirttigimiz tag'lari calistirir. XML'deki istedigimiz testleri calistirmak icin
-    kullaniriz. Runner class body'si bostur ve runner class'ini ekleyecegimiz notasyonlar active eder.
-    Bu class'ta kullanacagimiz 2 adet notasyon vardir
-    -@RunWith(Cucumber.class) notasyonu Runner class'ina calisma ozelligi ekler.
-    Bu notasyon oldugu icin Cucumber frameworkumuzde JUnit kullanmayi tercih ederiz.
-    -@CucumberOptions notasyonu icinde
-    features : Runner dosyasinin feature dosyasini nereden bulacagini tarif eder
+     Runner Class'ı TestNG'deki XMl mantığı ile çalışır. Çalıştırmak istediğimiz senartolara tag belirtiriz
+    ve belirttiğimiz tag'ları çalıştırır. XMl deki gibi istediğimiz testleri çalıştırmak için kullanırız.
+    Runner class body'si boştur ve runner class'ını ekleyeceğimiz notasyonlar aktive eder.
+     Bu class'da kullanacağımız 2 adet notasyon vardır
+    -@RunWith(Cucumber.class)  notasyonu Runner class'ına çalışma özelliği ekler.
+    Bu notasyon olduğu için Cucumber frameworkumuzde Junit kullanmayı tercih ederiz
+    -@CucumberOptions notasyonu içinde
+    features : Runeer dosyasının feature dosyasını nereden bulacağını tarif eder
     glue : stepDefinitions yolunu belirtiriz
-    tags : Hangi tag'i calistirmak istiyorsak onu belli eder
+    tags : Hangi tag'i çalıştırmak istiyorsak onu belli eder
 
-    dryRun : iki secenek vardir
-    dryRun = true; dersek testimizi calistirmadan eksik adimlari bize verir
-    dryRun = false; testlerimizi driver ile calistirir.
+    dryRun : iki seçenek vardır
+    dryRun = true; dersek testimizi çalıştırmadan eksik adımları bize verir
+    dryRun = false; testlerimizi driver ile çalıştırır.
      */
 
 }

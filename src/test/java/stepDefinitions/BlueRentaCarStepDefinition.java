@@ -37,4 +37,14 @@ public class BlueRentaCarStepDefinition {
     public void sayfayaGirisYapilamadiginiKontrolEder() {
         Assert.assertTrue(brc.ikinciLogin.isDisplayed());
     }
+
+    @Given("kullanici bluerentacar ana sayfasinda")
+    public void kullaniciBluerentacarAnaSayfasinda() {
+        
+    }
+
+    @And("kulllanici sayfayi kapatir")
+    public void kulllaniciSayfayiKapatir() {
+
+    }
 }
