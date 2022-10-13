@@ -1,7 +1,7 @@
 Feature: US002 Parametre Kullanimi
   Background: Ortak kisimlar
     Given Kullanici amazon sayfasina gider
-  @parametre
+
   Scenario: TC01 Kullanici amazonda parametreli arama yapar
 
     Then kullanici "nutella" icin arama yapar

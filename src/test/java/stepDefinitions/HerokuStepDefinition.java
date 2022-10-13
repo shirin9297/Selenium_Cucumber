@@ -1,5 +1,6 @@
 package stepDefinitions;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -41,5 +42,20 @@ public class HerokuStepDefinition {
     @And("AddRemove Elements yazisinin gorunurlugunu test eder")
     public void addremoveElementsYazisininGorunurlugunuTestEder() {
         assert herokuPages.addRemovesElementsText.getText().equals("Add/Remove Elements");
+    }
+
+    @Given("User goes to direct {string}")
+    public void userGoesToDirect(String istenenUrl) {
+        Driver.getDriver().get(istenenUrl);
+    }
+
+    @And("User waits {int} second")
+    public void userWaitsSecond(int arg0) {
+        ReusableMethods.waitFor(3);
+    }
+
+    @And("User close browser")
+    public void userCloseBrowser() {
+        Driver.closeDriver();
     }
 }

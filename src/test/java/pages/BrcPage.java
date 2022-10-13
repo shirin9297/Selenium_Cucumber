@@ -14,6 +14,9 @@ public class BrcPage {
     public WebElement login;
     @FindBy(xpath = "//*[@id='formBasicEmail']")
     public WebElement email;
+
+    @FindBy (css = "input[id='formBasicPassword']")
+    public WebElement passwordTextBox;
     @FindBy(xpath = "//*[@class='btn btn-primary']")
     public WebElement ikinciLogin;
 
