@@ -1,4 +1,3 @@
-@practiceClick
 Feature: Cucumber Java Manipulation
 
   Scenario: Practice click and Keys

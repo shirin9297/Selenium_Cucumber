@@ -1,4 +1,4 @@
-@all
+
 Feature: US007 Scenario Outline Kullanimi
 
   Scenario Outline: TC01 ConfigReader ile Scenario Outline Kullanimi

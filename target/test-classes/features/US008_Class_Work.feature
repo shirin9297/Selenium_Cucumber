@@ -1,6 +1,5 @@
 Feature: : US008 Scenario Outline Kullanimi
 
-  @BRC
   Scenario Outline: : TC11 kullanici gecersiz bilgilerle giris yapar
     Given kullanici "brcUrl" anasayfasina gider
     Then Login yazisina tiklar

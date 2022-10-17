@@ -14,7 +14,7 @@ public class GuruStepDefinition {
     GuruPage guru = new GuruPage();
     @Given("kullanici {string} anasayfasinda")
     public void kullaniciAnasayfasinda(String istenenUrl) {
-        Driver.getDriver().get(ConfigReader.getProperty("guruUrl"));
+        Driver.getDriver().get(ConfigReader.getProperty("autoUrl"));
     }
 
     @And("{string} sutunundaki tum degerleri yazdirir")

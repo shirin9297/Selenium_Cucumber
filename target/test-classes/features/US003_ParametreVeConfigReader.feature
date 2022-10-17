@@ -6,7 +6,7 @@ Feature: Parametre Kullanimi
     Then kullanici 3 saniye bekler
     When url'in "facebook" icerdigini test edelim
     And sayfayi kapatir
-
+@gp2
   Scenario: TC02 Parametre kullaniminda ConfigReader Kullanimi
 
     Given kullanici "google" sayfasina gider

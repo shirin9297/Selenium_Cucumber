@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="72.246">
+    <testcase classname="US015 Kullanici giris testi" name="TC01 Kullanici sitede hesap olusturur" time="71.95">
+        <system-out><![CDATA[Given kullanici "autoUrl" anasayfasinda.....................................passed
+And kullanici sign in linkine tiklar........................................passed
+And kullanici Create and account bolumune email adresi girer................passed
+And kullanici Create an Account butonuna basar..............................passed
+And kullanici kisisel bilgilerini ve iletisim bilgilerini girer.............passed
+And kullanici Register butonuna basar.......................................passed
+Then kullanicinin hesap olusturuldugunu dogrulayin..........................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

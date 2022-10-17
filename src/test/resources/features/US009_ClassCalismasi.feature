@@ -1,4 +1,3 @@
-@all
 Feature:Class Calismasi
 
   Scenario Outline:

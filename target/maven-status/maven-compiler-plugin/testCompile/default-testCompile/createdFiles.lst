@@ -1,3 +1,4 @@
+stepDefinitions\AmazonStepDefinition.class
 stepDefinitions\PracticeTestPageStepDefs.class
 utilities\ReusableMethods$1.class
 pages\GuruPage.class
@@ -10,10 +11,16 @@ stepDefinitions\BlueRentaCarStepDefinition.class
 stepDefinitions\BrcStepDefinition.class
 stepDefinitions\DatabaseOutlineStepDef.class
 utilities\ReusableMethods.class
+pages\AmazonPage.class
 pages\PracticeTC07Page.class
 pages\DatabaseOutlinePages.class
+runners\Runner.class
+runners\TestRunner.class
+utilities\Driver.class
 stepDefinitions\PracticeAmazonStepDefs.class
 stepDefinitions\Hooks.class
 pages\PracticeTestPage.class
+runners\TestRunner2.class
+utilities\ConfigReader.class
 stepDefinitions\HerokuStepDefinition.class
 stepDefinitions\GuruStepDefinition.class
